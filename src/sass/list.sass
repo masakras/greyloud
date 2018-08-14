@@ -1,0 +1,55 @@
+//list
+
+.mainContainer__list
+    width: 239px
+    height: 100%
+    border-right: 1px solid #f0f0f0
+
+.list__header
+    width: 239px
+
+.list__box
+    width: 239px
+    height: calc(100vh - 120px)
+    background-color: #fff
+    overflow: auto
+    -ms-overflow-style: none  // IE 10+
+    
+.list__box::-webkit-scrollbar 
+    display: none  // Safari and Chrome
+
+// .list__box
+//     overflow: -moz-scrollbars-none  // Firefox
+
+.list__footer
+    width: 239px
+
+.box__catalog
+    overflow: hidden
+    -ms-overflow-style: none  // IE 10+
+    overflow: -moz-scrollbars-none  // Firefox
+
+.catalog__item
+    list-style-type: none
+    display: flex
+    align-items: center
+    border-bottom: 1px solid #fdfdfd
+    z-index: 1
+
+.catalog__item:first-child
+    position: fixed
+    width: 239px
+    background-color: #fff
+    z-index: 2
+    
+.item__round_grey 
+    display: inline-block
+    background-color: #b1b1b1   
+    border-radius: 100%
+    width: 37.5px
+    height: 37.5px
+    margin: 13px 20px 11px 20px
+
+.item__name
+    float: right
+    text-align: center
