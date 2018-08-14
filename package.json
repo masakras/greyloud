@@ -1,0 +1,35 @@
+{
+  "name": "task-html-coder-greyloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masakras/Task-HTML-coder-Greyloud.git"
+  },
+  "keywords": [
+    "task",
+    "html",
+    "coder",
+    "greyloud"
+  ],
+  "author": "Dmitry Shaveika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masakras/Task-HTML-coder-Greyloud/issues"
+  },
+  "homepage": "https://github.com/masakras/Task-HTML-coder-Greyloud#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-font": "^1.0.4",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "description": ""
+}
