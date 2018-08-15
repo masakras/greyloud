@@ -12,22 +12,16 @@
     width: 239px
     height: calc(100vh - 120px)
     background-color: #fff
-    overflow: auto
-    -ms-overflow-style: none  // IE 10+
-    
-.list__box::-webkit-scrollbar 
-    display: none  // Safari and Chrome
-
-// .list__box
-//     overflow: -moz-scrollbars-none  // Firefox
 
 .list__footer
     width: 239px
 
 .box__catalog
-    overflow: hidden
-    -ms-overflow-style: none  // IE 10+
-    overflow: -moz-scrollbars-none  // Firefox
+    position: fixed
+    overflow: auto
+    width: 100%
+    height: calc(100vh - 120px)
+    
 
 .catalog__item
     list-style-type: none
@@ -35,6 +29,7 @@
     align-items: center
     border-bottom: 1px solid #fdfdfd
     z-index: 1
+    width: 239px
 
 .catalog__item:first-child
     position: fixed

@@ -1,4 +1,7 @@
-@media screen and (max-width: 1520px) 
+@media screen and (max-width: 1520px)
+
+    //list
+
     html, body, main, article
         .mainContainer__list
             width: 79px
@@ -13,15 +16,79 @@
             width: 79px
 
         .catalog__item:first-child
+            width: 79px    
+
+        .catalog__item
             width: 79px
     
-        // .item__round_grey 
-        // display: inline-block
-        // background-color: #b1b1b1   
-        // border-radius: 100%
-        // width: 37.5px
-        // height: 37.5px
-        // margin: 13px 20px 11px 20px
-
         .item__name
             display: none
+
+    //additional
+            
+    html, body, main, article
+        .mainContainer__additional
+            max-width: 600px
+            min-width: 300px
+            width: 100%
+
+        .additional__header
+            width: 600px
+            min-width: 300px
+            width: 100%
+
+        .additional__box
+            width: 600px
+            min-width: 300px
+            width: 100%
+
+        .additional__footer
+            width: 600px
+            min-width: 300px
+            width: 100%
+
+@media screen and (max-width: 1184px)
+        
+    //additional
+
+    html, body, main, article
+        .mainContainer__additional
+            display: none
+
+@media screen and (max-width: 884px) 
+
+    //body
+    html
+        body
+            padding-left: 0
+            
+    //content
+
+    html, body, main, article
+        .mainContainer__content
+            display: none   
+    
+    //list
+    
+    html, body, main, article
+        .mainContainer__list
+            width: 239px
+            margin: 0 auto
+
+        .list__header
+            width: 239px
+
+        .list__box
+            width: 239px
+
+        .list__footer
+            width: 239px
+
+        .catalog__item:first-child
+            width: 239px
+
+        .catalog__item
+            width: 239px
+
+        .item__name
+            display: inline-block
